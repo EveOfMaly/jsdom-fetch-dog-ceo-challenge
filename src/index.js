@@ -12,6 +12,8 @@ function fetchImage() {
     .then(json => renderImage(json))
   }
   
+
+  
   function renderImage(images) {
     const dogContainer = document.getElementById('dog-image-container');
     images.message.forEach(message => {
